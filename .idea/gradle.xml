@@ -11,11 +11,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/cashier" />
             <option value="$PROJECT_DIR$/chef" />
-            <option value="$PROJECT_DIR$/chef-usecase" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/database" />
             <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/usecase" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -23,7 +23,7 @@ dependencies {
     implementation project(':app')
 
     implementation project(':common')
-    implementation project(':chef-usecase')
+    implementation project(':usecase')
 
     // Koin for Kotlin
     implementation "org.koin:koin-androidx-scope:2.0.1"

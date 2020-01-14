@@ -2,6 +2,7 @@ package com.example.myrestaurantapps
 
 import com.example.core.databaseModule
 import com.example.core.repositoryModule
+import com.example.core.useCaseModule
 import com.google.android.play.core.splitcompat.SplitCompatApplication
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -18,7 +19,7 @@ class MyApp : SplitCompatApplication() {
             //inject Android context
             androidContext(this@MyApp)
             // use modules
-            modules(listOf(databaseModule, repositoryModule))
+            modules(listOf(databaseModule, repositoryModule, useCaseModule))
         }
     }
 }

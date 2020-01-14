@@ -1,2 +1,2 @@
-include ':app', ':database', ':chef', ':cashier', ':common', ':repository', ':core', ':chef-usecase'
+include ':app', ':database', ':chef', ':cashier', ':common', ':repository', ':core', ':usecase'
 rootProject.name='MyRestaurantApps'

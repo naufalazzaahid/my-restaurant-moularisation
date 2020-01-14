@@ -39,6 +39,7 @@ dependencies {
     implementation project(':repository')
     implementation project(':common')
     implementation project(':database')
+    implementation project(':usecase')
 
     //room
     implementation "android.arch.persistence.room:runtime:1.1.1"
